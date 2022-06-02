@@ -34,3 +34,5 @@ LISTA DE RESPONSABILIDADES :
     -   Action file
 -   Keyboard (numeros del 0 al 9 y delete) folder
     -   Key file click
+
+info tendra dentro a (display actions y keyboard para que tengan comunicacion de hijos y compartan variables )
