@@ -2,18 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { KeyBoard } from './components/keyboard/keyboard';
+import { Action } from './components/actions/action';
+import { Display } from './components/display/dispplay';
+import { Info } from './components/info/info';
 
 function App() {
     const template = (
-        <div>
-            <img
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-                width="600px"
-                alt=""
-            />
-            <div>
+        <div className="container">
+            <Info />
+            <main className="phone">
                 <KeyBoard />
-            </div>
+                <div className="actions">
+                    <Display />
+                    <Action />
+                </div>
+            </main>
         </div>
     );
 

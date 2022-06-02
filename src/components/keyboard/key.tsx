@@ -2,7 +2,7 @@ import { KEYBOARD } from '../../data/data';
 
 export function Key({ item }: { item: string }) {
     const template = (
-        <button className={item === 'delete' ? 'key big' : 'key'}>
+        <button value={item} className={item === 'delete' ? 'key big' : 'key'}>
             {item}
             <img
                 src={

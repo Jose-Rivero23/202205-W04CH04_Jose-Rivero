@@ -26,9 +26,9 @@ Entrega también un listado de responsabilidades.
 
 LISTA DE RESPONSABILIDADES :
 
--phone(app) (estado/emitir)
+-
 
--   Info (calling) /mostrar estado folder
+-   Info (calling) /mostrar estado folder - phone(app) (estado/emitir)
 -   Display (numero al que llamas /pantalla) folder
 -   Actions (Call y hang) folder
     -   Action file
