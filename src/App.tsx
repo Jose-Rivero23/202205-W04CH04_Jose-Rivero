@@ -10,13 +10,6 @@ function App() {
     const template = (
         <div className="container">
             <Info />
-            <main className="phone">
-                <KeyBoard />
-                <div className="actions">
-                    <Display />
-                    <Action />
-                </div>
-            </main>
         </div>
     );
 
